@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortes-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div class="page-wrapper" id="pageWrapper">
+    <header class="header">
+        <a href="#" class="logo"><span>Alec Fortes</span></a>
+
+        <ul class="nav-links">
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <button class="visit-btn">Visit Resume</button>
+    </header>
+
+    <section id="about" class="about">
+
+        <div class="about-container">
+            <img src="Images/Profile.jpg" alt="">
+            <div class="info-box">
+
+                <div class="text">
+                    <h3>Hi, I'm</h3>
+                    <h1>Alec Fortes</h1>
+                    <span>Game Developer</span>
+                </div>
+
+                <div class="socials">
+                    
+                    <a href="https://www.facebook.com/AlecFortes.36" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/donqamote/?hl=en" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=alecmiguel.fortes36@gmail.com" target="_blank">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </div>         
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">Recent Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card"
+                 data-title="Adventures of Juanito Bayani"
+                 data-tagline="A single-player roguelite action RPG"
+                 data-image="Images/JuanitoBayani.PNG"
+                 data-description="Adventures of Juanito Bayani is a game inspired by Philippine mythology where the protagonist ventures around Luzon, Visayas and Mindanao, looking for their captured mother, facing different mythological creatures along the way and learning more about them."
+                 data-role="Lead Programmer"
+                 data-status="Finished"
+                 data-awards="Best Capstone, Best Game Design"
+                 data-tags="Single Player, PC, Roguelite, Action, RPG"
+                 data-engine="Unity, C#"
+                 data-contributions='[
+                    {"text":"Implemented a main menu with an animated background","images":["Images/JuanitoBayaniScreenshots/Screenshot4.PNG"]},
+                    {"text":"Implemented the core game mechanics involving player movement with melee and ranged attacks, and iframes. Additionally, the main game loop that includes stage generation, enemy ai, enemy spawning, and boss stages are also implemented.","images":["Images/JuanitoBayaniScreenshots/Screenshot8.PNG","Images/JuanitoBayaniScreenshots/Screenshot9.PNG","Images/JuanitoBayaniScreenshots/Screenshot10.PNG","Images/JuanitoBayaniScreenshots/Screenshot7.PNG"]},
+                    {"text":"Implemented a tutorial stage to help players familiarize with controls as well as dialogue systems to progress with game story.","images":["Images/JuanitoBayaniScreenshots/Screenshot3.PNG","Images/JuanitoBayaniScreenshots/Screenshot2.PNG"]},
+                    {"text":"Implemented a shop system for permanent upgrades","images":["Images/JuanitoBayaniScreenshots/Screenshot1.PNG"]},
+                    {"text":"Implemented a journal system to showcase enemy lore.","images":["Images/JuanitoBayaniScreenshots/Screenshot11.PNG","Images/JuanitoBayaniScreenshots/Screenshot12.PNG"]},
+                    {"text":"Implemented minigames for buff receiving system","images":["Images/JuanitoBayaniScreenshots/Screenshot6.PNG","Images/JuanitoBayaniScreenshots/Screenshot5.PNG"]}
+                 ]'>
+                <img src="Images/JuanitoBayani.PNG" alt="Adventures of Juanito Bayani">
+                <h3>Adventures of Juanito Bayani</h3>
+                <p>A single-player roguelite action RPG</p>
+                <div class="btn-group">
+                    <div class="btn details-btn">Details</div>
+                </div>
+            </div>
+            <div class="project-card"
+                 data-title="Ecoventures"
+                 data-tagline="A single-player arcade trivia game"
+                 data-image="Images/Ecoventures.png"
+                 data-description="Ecoventures is a time based arcade game following the story of Jed, and his path to learning about startup businesses, where he creates different sellable products out of recycled materials, and sell it where there is high demand, unlocking more areas and items to craft the more he learns about running a business."
+                 data-role="Lead Programmer"
+                 data-status="Finished"
+                 data-tags="Single Player, Mobile, Arcade, Management"
+                 data-engine="Unity, C#"
+                 data-contributions='[
+                    {"text":"Implemented a main menu with an animated camera","images":["Images/EcoventuresScreenshots/Screenshot1.PNG","Images/EcoventuresScreenshots/Recording1.gif"]},
+                    {"text":"Implemented the core game mechanics that includes player movement, object interaction, crafting recipes and time constraints.","images":["Images/EcoventuresScreenshots/Screenshot3.PNG","Images/EcoventuresScreenshots/Screenshot4.PNG"]},
+                    {"text":"Implemented a guidebook system and a dialogue system to help with tutorial and story progression","images":["Images/EcoventuresScreenshots/Screenshot2.PNG","Images/EcoventuresScreenshots/Screenshot7.PNG"]},
+                    {"text":"Implemented a map area where the player can access the different stages where he can sell the products made","images":["Images/EcoventuresScreenshots/Screenshot5.PNG","Images/EcoventuresScreenshots/Screenshot6.PNG"]}
+                 ]'>
+                <img src="Images/Ecoventures.png" alt="Ecoventures">
+                <h3>Ecoventures</h3>
+                <p>A single-player arcade trivia game</p>
+                <div class="btn-group">
+                    <div class="btn details-btn">Details</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+
+        <div class="input-box">
+
+            <h2 class="section-title">Contact Me</h2>
+
+            <div class="input">
+                <input type="text" placeholder="example@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+
+            <button class="btn">Submit</button>
+        </div>
+
+    </section>
+    <footer>
+
+        <ul>
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contacts</a>
+            </li>
+        </ul>
+
+        <p class="copyright">@ All Rights Reserved | Alec Fortes</p>
+    </footer>
+    </div>
+
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="project-modal" id="projectModal">
+            <button class="modal-close" id="modalClose" aria-label="Close details">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="modal-image">
+                <img id="modalImage" src="" alt="">
+            </div>
+
+            <div class="modal-details" id="modalDetails">
+                <h3 id="modalTitle"></h3>
+                <span class="modal-tagline" id="modalTagline"></span>
+                <p id="modalDescription"></p>
+
+                <div class="modal-data" id="modalData"></div>
+
+                <div class="modal-contributions" id="modalContributions">
+                    <h4>Key Contributions</h4>
+                    <ul id="modalContributionsList"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
